@@ -89,7 +89,7 @@ function gameOver() {
   $("body").addClass("game-over");
   setTimeout(function() {
     $("body").removeClass("game-over");
-  }, 1000);
+  }, 200);
 
   level = 0;
   gamePattern = [];
